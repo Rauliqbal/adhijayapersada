@@ -6,7 +6,7 @@
             <h3 class="section-title">TENTANG KAMI</h3>
             <h2 class="section-subtitle">CV. Adhi Jaya Persada</h2>
             <div class="h-1 w-20 mt-6 bg-blue-700"></div>
-            <p class="paragraph mt-6">
+            <p class="paragraph mt-8">
                <span class="font-semibold">CV. ADHI JAYA PERSADA</span> menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel (gorong-gorong), Hot Dip Galvanize, Steel Grating, Flex Beam
                Guard Rail dan lain-lain. Kami menjamin produk kami berkualitas dan tepat waktu dalam pengiriman.
             </p>

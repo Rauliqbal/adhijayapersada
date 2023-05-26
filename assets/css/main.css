@@ -13,16 +13,14 @@
 
 @layer components {
    .btn-primary {
-      @apply inline-flex tracking-wider px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 ease-out;
+      @apply inline-flex tracking-wider px-6 py-3 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-all duration-300 ease-out;
    }
 
    .paragraph {
       @apply text-lg tracking-wide leading-relaxed;
    }
 
-   .card-hover:hover {
-      @apply ring-inset;
-
+   .card-shadow {
       box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
       -webkit-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
       -moz-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;

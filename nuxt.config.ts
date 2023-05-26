@@ -4,9 +4,13 @@ export default defineNuxtConfig({
       head: {
          charset: "utf-8",
          viewport: "width=device-width, initial-scale=1",
+         title: "CV. Adhi Jaya Persada - Gorong Gorong Baja",
          meta: [
-            { name: "description", content: "This Website using Nuxt 3 and Tailwind CSS" },
-            { name: "keywords", content: "adhi jaya persada, gorong gorong, suplier steel" },
+            {
+               name: "description",
+               content: "Adhi Jaya Persada menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel , Hot Dip Galvanize, Steel Grating, Flex Beam Guard Rail dan lain-lain.",
+            },
+            { name: "keywords", content: "adhi jaya persada, gorong gorong, suplier steel, baja galvanis" },
          ],
          link: [
             {

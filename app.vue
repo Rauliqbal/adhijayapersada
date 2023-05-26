@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-   <!-- <Navbar /> -->
+   <Navbar />
    <NuxtPage />
 </template>
 
