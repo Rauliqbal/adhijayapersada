@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   body {
+      @apply font-poppins bg-[#FAFAFA];
+   }
+   section {
+      @apply my-[120px];
+   }
+}
+
+@layer components {
+   .btn-primary {
+      @apply inline-flex tracking-wider px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 ease-out;
+   }
+
+   .paragraph {
+      @apply text-lg tracking-wide leading-relaxed;
+   }
+}
+
+@layer utilities {
+   .section-title {
+      @apply text-lg text-blue-700 font-bold tracking-wide mb-2;
+   }
+   .section-subtitle {
+      @apply text-4xl text-red-500 font-bold;
+   }
+}
