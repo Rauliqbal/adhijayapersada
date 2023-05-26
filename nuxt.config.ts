@@ -4,7 +4,7 @@ export default defineNuxtConfig({
       head: {
          charset: "utf-8",
          viewport: "width=device-width, initial-scale=1",
-         title: "CV. Adhi Jaya Persada - Gorong Gorong Baja",
+         title: "Adhi Jaya Persada - Gorong Gorong Baja",
          meta: [
             {
                name: "description",

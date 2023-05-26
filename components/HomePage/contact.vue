@@ -2,7 +2,7 @@
 <template>
    <section class="bg-white py-20">
       <div class="container">
-         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
                <h3 class="section-title">KONTAK KAMI</h3>
                <h2 class="section-subtitle">
@@ -14,7 +14,7 @@
                <div class="flex flex-col gap-8 mt-8">
                   <div>
                      <div class="flex gap-2 items-center">
-                        <i class="ai-phone text-2xl"></i>
+                        <i class="ai-phone text-2xl text-blue-700"></i>
                         <h4 class="font-semibold text-xl">Telepon</h4>
                      </div>
                      <h5 class="text-lg mt-2">0813 8911 3001</h5>
@@ -22,7 +22,7 @@
 
                   <div>
                      <div class="flex gap-2 items-center">
-                        <i class="ai-envelope text-2xl"></i>
+                        <i class="ai-envelope text-2xl text-blue-700"></i>
                         <h4 class="font-semibold text-xl">Email</h4>
                      </div>
                      <h5 class="text-lg mt-2">brian.sanadi@gmail.com</h5>
@@ -30,10 +30,10 @@
 
                   <div>
                      <div class="flex gap-2 items-center">
-                        <i class="ai-location text-2xl"></i>
+                        <i class="ai-location text-2xl text-blue-700"></i>
                         <h4 class="font-semibold text-xl">Telepon</h4>
                      </div>
-                     <h5 class="text-lg mt-2">Jl. Markisa 2 Blok D9 No 19, Rt 04 Rw 15</h5>
+                     <h5 class="text-lg mt-2">Jl. Markisa 2 Blok D9 No 19</h5>
                   </div>
                </div>
 
