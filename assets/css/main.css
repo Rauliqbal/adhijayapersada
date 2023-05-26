@@ -19,6 +19,14 @@
    .paragraph {
       @apply text-lg tracking-wide leading-relaxed;
    }
+
+   .card-hover:hover {
+      @apply ring-inset;
+
+      box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
+      -webkit-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
+      -moz-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
+   }
 }
 
 @layer utilities {
