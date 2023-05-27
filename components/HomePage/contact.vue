@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-   <section class="bg-white py-20">
+   <section class="bg-white py-20 mb-0">
       <div class="container">
          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
