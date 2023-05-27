@@ -6,5 +6,6 @@ useHead({
 <template>
    <main>
       <AboutPageHeader />
+      <AboutPageAbout />
    </main>
 </template>

@@ -22,7 +22,11 @@ const products = [
    },
 ];
 
-const contacts = ["brian.sanadi78@gmail.com", "0813 8911 3001", "Jl. Markisa 2 Blok D9/19, Perum Telaga Murni, Kec. Cikarang Barat, Kab. Bekasi, Jawa Barat 17520"];
+const contacts = [
+   { title: "brian.sanadi78@gmail.com", url: "mailto:brian.sanadi78@gmail.com" },
+   { title: "0813 8911 3001", url: "https://wa.me/081389113001?text=Permisi" },
+   { title: "Jl. Markisa 2 Blok D9/19, Perum Telaga Murni, Kec. Cikarang Barat, Kab. Bekasi, Jawa Barat 17520", url: "https://goo.gl/maps/48VXRr2DYPhC7AVx9" },
+];
 
 const date = new Date();
 </script>
@@ -61,8 +65,8 @@ const date = new Date();
                      <div>
                         <h4 class="text-xl font-semibold text-blue-700">Tentang Kami</h4>
                         <ul class="mt-4 inline-flex flex-col gap-4">
-                           <li v-for="contact in contacts" :key="contact" class="text-gray-500 font-medium ease-out">
-                              {{ contact }}
+                           <li v-for="contact in contacts" :key="contact" class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out">
+                              <a :href="contact.url" target="_blank">{{ contact.title }}</a>
                            </li>
                         </ul>
                      </div>
