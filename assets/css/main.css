@@ -17,13 +17,7 @@
    }
 
    .paragraph {
-      @apply text-lg tracking-wide leading-relaxed;
-   }
-
-   .card-shadow {
-      box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
-      -webkit-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
-      -moz-box-shadow: 0px -8px 0px 0px rgba(231, 66, 66, 1) inset;
+      @apply text-gray-800 tracking-wide leading-relaxed;
    }
 }
 
@@ -32,6 +26,6 @@
       @apply text-lg text-blue-700 font-bold tracking-wide mb-2;
    }
    .section-subtitle {
-      @apply text-4xl text-red-500 font-bold;
+      @apply text-4xl text-red-600 font-bold;
    }
 }

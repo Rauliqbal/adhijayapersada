@@ -10,7 +10,7 @@
                <span class="font-semibold">ADHI JAYA PERSADA</span> menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel (gorong-gorong), Hot Dip Galvanize, Steel Grating, Flex Beam
                Guard Rail dan lain-lain. Kami menjamin produk kami berkualitas dan tepat waktu dalam pengiriman.
             </p>
-            <p class="paragraph mt-4"><span class="font-semibold">ADHI JAYA PERSADA</span> berkomitmen membangun reputasi yang nyata dengan menyediakan layanan profesional dan invatif untuk customer di seluruh Indonesia.</p>
+            <p class="paragraph mt-4"><span class="font-semibold">ADHI JAYA PERSADA</span> berkomitmen membangun reputasi yang nyata dengan menyediakan layanan profesional dan inovatif untuk customer di seluruh Indonesia.</p>
          </div>
          <div>
             <img class="rounded-3xl drop-shadow-xl" src="~/assets/images/about-image.png" alt="gorong gorong baja adhi jaya" />

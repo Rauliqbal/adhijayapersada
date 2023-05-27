@@ -29,7 +29,8 @@ const links = [
          <div class="flex items-center justify-between">
             <div class="relative">
                <NuxtLink to="/">
-                  <img class="h-8" src="~/assets/images/logoipsum-259.svg" alt="Kami menyediakan semua produk baja galvanis" />
+                  <img class="h-8 hidden md:block" src="~/assets/images/logo-ajp_wide.png" alt="Kami menyediakan semua produk baja galvanis" />
+                  <img class="w-16 md:hidden" src="~/assets/images/logo-ajp_square.png" alt="Kami menyediakan semua produk baja galvanis" />
                </NuxtLink>
             </div>
             <div class="flex items-center">
