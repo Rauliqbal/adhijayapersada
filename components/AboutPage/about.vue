@@ -1,4 +1,22 @@
-<script setup></script>
+<script setup>
+const lists = [
+   {
+      title: "VISI",
+      desc: "Menjadi suplier terbaik di Indonesia",
+      image: "bg-[url('/images/visi.jpg')]",
+   },
+   {
+      title: "MISI",
+      desc: "Melayani dengan hati, tepat waktu, dan di percaya",
+      image: "bg-[url('/images/misi.jpg')]",
+   },
+   {
+      title: "MOTTO",
+      desc: "Menjadi suplier yang bermanfaat untuk customer",
+      image: "bg-[url('/images/motto.jpg')]",
+   },
+];
+</script>
 <template>
    <section class="container">
       <h3 class="section-title">TENTANG KAMI</h3>
@@ -24,12 +42,31 @@
             <p class="paragraph mt-4"><span class="font-semibold">ADHI JAYA PERSADA berkomitmen</span> membangun reputasi yang nyata dengan menyediakan layanan profesional dan invatif untuk customer di seluruh Indonesia.</p>
          </div>
       </div>
+
+      <div id="visi-misi" class="container mt-[120px] scroll-mt-32">
+         <Swiper
+            :pagination="{
+               clickable: true,
+            }"
+            :slides-per-view="'1'"
+            :loop="true"
+            :space-between="'32'"
+            :modules="[SwiperPagination, SwiperAutoplay]"
+            :autoplay="{
+               delay: 4000,
+               disableOnInteraction: true,
+            }"
+         >
+            <SwiperSlide v-for="list in lists" :key="list">
+               <div :class="'h-80 bg-no-repeat bg-center bg-cover rounded-3xl overflow-hidden relative ' + list.image">
+                  <div class="bg-gradient-to-t from-black to-black/40 absolute inset-0 flex flex-col justify-center items-center">
+                     <h4 class="text-5xl text-white font-semibold">{{ list.title }}</h4>
+                     <p class="paragraph text-white mt-4">{{ list.desc }}</p>
+                  </div>
+                  <div></div>
+               </div>
+            </SwiperSlide>
+         </Swiper>
+      </div>
    </section>
 </template>
-
-<!--  -->
-
-<!--  -->
-
-<!--  -->
-CV. ADHI JAYA PERSADA berkomitmen membangun reputasi yang nyata dengan menyediakan layanan profesional dan invatif untuk customer di seluruh Indonesia.

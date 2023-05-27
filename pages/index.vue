@@ -1,8 +1,4 @@
-<script setup>
-// useHead({
-//    title: "CV Adhi Jaya Persada",
-// });
-</script>
+<script setup></script>
 <template>
    <main>
       <HomePageHeader />

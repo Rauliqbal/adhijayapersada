@@ -1,4 +1,19 @@
 <script setup>
+const abouts = [
+   {
+      title: "Profil",
+      url: "/about",
+   },
+   {
+      title: "Visi & Misi",
+      url: "/about#visi-misi",
+   },
+   {
+      title: "Sertifikat/Legalitas",
+      url: "/about",
+   },
+];
+
 const products = [
    {
       title: "Hot Dip Galvanize",
@@ -45,9 +60,9 @@ const date = new Date();
                      <div>
                         <h4 class="text-xl font-semibold text-blue-700">Tentang</h4>
                         <ul class="mt-4 inline-flex flex-col gap-4">
-                           <li class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out"><a href="about">Profile</a></li>
-                           <li class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out"><a href="">Visi & Misi</a></li>
-                           <li class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out"><a href="">Sertifikat / Legalitas</a></li>
+                           <li class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out" v-for="about in abouts" :key="about">
+                              <NuxtLink :to="about.url">{{ about.title }}</NuxtLink>
+                           </li>
                         </ul>
                      </div>
 

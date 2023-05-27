@@ -13,7 +13,7 @@ const links = [
       url: "/products",
    },
    {
-      title: "Tentang",
+      title: "Tentang Kami",
       url: "/about",
    },
    {

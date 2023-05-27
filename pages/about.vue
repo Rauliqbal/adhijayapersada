@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-   title: "About - Nuxt 3 with Tailwind",
+   title: "Tentang Kami - Adhi Jaya Persada",
 });
 </script>
 <template>
