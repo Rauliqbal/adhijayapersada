@@ -23,7 +23,7 @@ const products = [
    {
       title: "Tiang PJU",
       url: "/products",
-      image: "aramco.jpg ",
+      image: "tiang-pju.jpg ",
    },
 ];
 </script>
