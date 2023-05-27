@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-   title: "Tentang - Adhi Jaya Persada",
+   title: "Produk - Adhi Jaya Persada",
 });
 </script>
 <template>

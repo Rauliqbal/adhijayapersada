@@ -8,10 +8,6 @@ const abouts = [
       title: "Visi & Misi",
       url: "/about#visi-misi",
    },
-   {
-      title: "Sertifikat/Legalitas",
-      url: "/about",
-   },
 ];
 
 const products = [
@@ -53,6 +49,23 @@ const date = new Date();
                <div class="col-span-2">
                   <img class="w-48" src="~/assets/images/logo-ajp_wide.png" alt="Adhi Jaya Persada supplier gorong gorong baja" />
                   <p class="paragraph mt-4"><span class="font-semibold">ADHI JAYA PERSADA</span> berkomitmen membangun reputasi yang nyata dengan menyediakan layanan profesional dan inovatif</p>
+
+                  <div class="flex items-center gap-4 mt-6">
+                     <a
+                        href="https://www.instagram.com/ajp.trading78"
+                        target="_blank"
+                        class="flex items-center justify-center w-12 h-12 rounded-full text-blue-600 hover:text-white hover:bg-blue-600 bg-gray-200 p-4 transition duration-300 ease-out"
+                     >
+                        <i class="text-3xl ai-instagram-fill"></i>
+                     </a>
+                     <a
+                        href="https://web.facebook.com/adhi.j.persada/"
+                        target="_blank"
+                        class="flex items-center justify-center w-12 h-12 rounded-full text-blue-600 hover:text-white hover:bg-blue-600 bg-gray-200 p-4 transition duration-300 ease-out"
+                     >
+                        <i class="text-3xl ai-facebook-fill"></i>
+                     </a>
+                  </div>
                </div>
                <div class="col-span-3">
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">

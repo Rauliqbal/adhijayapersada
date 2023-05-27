@@ -43,7 +43,7 @@ const products = [
          :space-between="'32'"
          :modules="[SwiperPagination, SwiperAutoplay]"
          :autoplay="{
-            delay: 2000,
+            delay: 4000,
             disableOnInteraction: true,
          }"
          :breakpoints="{
