@@ -2,7 +2,8 @@
 const data = {
    title: "Steel Grating",
    image: "steel-grating.jpg",
-   description: "Apa itu steel grating ? Steel grating adalah sejenis baja dapat berbentuk kotak-kotak dan silang yang saling berhubungan pada antar bagian dengan menggunakan pengelasan ataupun dengan penguncian.",
+
+   images: ["grating1.png", "grating2.png", "grating3.png", "grating4.png"],
 };
 </script>
 <template>
@@ -23,7 +24,9 @@ const data = {
          </div>
 
          <h2 class="text-4xl font-bold mt-8 mb-6">{{ data.title }}</h2>
-         <p class="paragraph mt-4">{{ data.description }}</p>
+         <div class="h-1 w-20 mt-6 bg-red-700"></div>
+
+         <p class="paragraph mt-4">Apa itu steel grating ? Steel grating adalah sejenis baja dapat berbentuk kotak-kotak dan silang yang saling berhubungan pada antar bagian dengan menggunakan pengelasan ataupun dengan penguncian.</p>
          <img class="w-full mt-8" src="~/assets/images/steelgrating-info.jpg" :alt="'Adhi Jaya Persada ' + data.title" />
          <ul class="list-decimal pl-6 mt-8">
             <li class="paragraph pl-4">Bearing Bar – A flat bar withstanding the main load is in consistent with the span direction</li>
@@ -33,6 +36,15 @@ const data = {
             <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
             <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
          </ul>
+
+         <h2 class="text-3xl md:text-4xl font-bold mt-20 mb-6">{{ data.title }} Product</h2>
+         <div class="h-1 w-20 mt-6 bg-red-700"></div>
+
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div v-for="image in data.images" :key="image">
+               <img class="w-full h-full object-cover gap-8 rounded-3xl" :src="'/images/' + image" alt="" />
+            </div>
+         </div>
       </section>
    </main>
 </template>

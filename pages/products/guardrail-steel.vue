@@ -1,8 +1,9 @@
 <script setup>
 const data = {
-   title: "Steel Grating",
+   title: "Guardrail Steel",
    image: "guard-rail.jpg",
-   description: "Apa itu steel grating ? Steel grating adalah sejenis baja dapat berbentuk kotak-kotak dan silang yang saling berhubungan pada antar bagian dengan menggunakan pengelasan ataupun dengan penguncian.",
+
+   images: ["guard-rail.jpg", "hotdipgalvanize3.png"],
 };
 </script>
 <template>
@@ -23,16 +24,42 @@ const data = {
          </div>
 
          <h2 class="text-4xl font-bold mt-8 mb-6">{{ data.title }}</h2>
-         <p class="paragraph mt-4">{{ data.description }}</p>
-         <img class="w-full mt-8" src="~/assets/images/steelgrating-info.jpg" :alt="'Adhi Jaya Persada ' + data.title" />
-         <ul class="list-decimal pl-6 mt-8">
-            <li class="paragraph pl-4">Bearing Bar – A flat bar withstanding the main load is in consistent with the span direction</li>
-            <li class="paragraph pl-4">Bearing Bar Pitch – The Distance center to center of the two adjacent cross bars</li>
-            <li class="paragraph pl-4">Cross Bar – The Connecting bars, made from twisted bar, round bar or flat bar, which extend accross the bearing bars</li>
-            <li class="paragraph pl-4">Cross bar pitch – The distance center to center of the two adjacent cross bars</li>
-            <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
-            <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
+         <p class="paragraph mt-4">
+            Guard Rail adalah nama lain dari pagar pembatas jalan yang sudah sering anda lihat di jalan tol atau jalan raya biasa. Pagar pembatas jalan ini memiliki fungsi utama sebagai peredam energi kinetik jika sebuah kendaraan menabrak
+            pembatas jalan. Redaman energi kinetik ini membuat mobil paling tidak terbalik atau terpelanting jauh dari lokasi kecelakaan.
+         </p>
+         <p class="paragraph mt-4">
+            Guard Rail terbuat dari bahan baja yang dibentuk dengan mesin cold-roll sehingga menghasilkan beam baja berkualitas yang disebut dengan W-Beam. Sifat dari guard rail ini adalah anti karat sehingga tidak akan terpengaruh sama
+            sekali dengan cuaca ekstrem yang ada di luar ruangan. Guard Rail sudah dilapisi dengan lapisan anti karat (lapisan galvanis) yang tahan terhadap panas matahari dan air hujan. Panas dan hujan yang biasanya menjadi musuh utama
+            material logam bisa diatasi dengan baik oleh Guard Rail.
+         </p>
+         <p class="paragraph mt-4">Sampai saat ini teknologi Guard Rail bisa dikatakan yang paling aman untuk digunakan sebagai pembatas jalan. Alat ini bisa membuat kendaraan tidak terlempar ke luar jalur saat mengalami kecelakaan</p>
+         <p class="paragraph mt-4">Komponen-komponen Guardrail (Standard SNI)</p>
+         <ul class="list-decimal pl-6 mt-4">
+            <li class="pl-4 paragraph">Beam 4320 x 312 x 2.7 mm</li>
+            <li class="pl-4 paragraph">Post 1800 x 176 x 74 x 6.0 mm</li>
+            <li class="pl-4 paragraph">Post 1800 x 176 x 74 x 4.5 mm</li>
+            <li class="pl-4 paragraph">Blocking Piece 350 x 176 x 74 x 6.0 mm</li>
+            <li class="pl-4 paragraph">Blocking Piece 350 x 176 x 74 x 4.5 mm</li>
+            <li class="pl-4 paragraph">Terminal End (Sleeve Beam) 725 x 312 x 2.7 mm</li>
          </ul>
+         <p class="paragraph mt-4">Komponen-komponen Guardrail (Standard AASHTO)</p>
+         <ul class="list-decimal pl-6 mt-4">
+            <li class="pl-4 paragraph">Beam 4320 x 312 x 2.7 mm</li>
+            <li class="pl-4 paragraph">Post 1800 x 176 x 74 x 6.0 mm</li>
+            <li class="pl-4 paragraph">Post 1800 x 176 x 74 x 4.5 mm</li>
+            <li class="pl-4 paragraph">Blocking Piece 350 x 176 x 74 x 6.0 mm</li>
+            <li class="pl-4 paragraph">Blocking Piece 350 x 176 x 74 x 4.5 mm</li>
+            <li class="pl-4 paragraph">Terminal End (Sleeve Beam) 725 x 312 x 2.7 mm</li>
+         </ul>
+
+         <h2 class="text-3xl md:text-4xl font-bold mt-20 mb-6">{{ data.title }} Product</h2>
+         <div class="h-1 w-20 mt-6 bg-blue-700"></div>
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <div v-for="image in data.images" :key="image">
+               <img class="w-full h-full object-cover gap-8 rounded-3xl" :src="'/images/' + image" alt="" />
+            </div>
+         </div>
       </section>
    </main>
 </template>
