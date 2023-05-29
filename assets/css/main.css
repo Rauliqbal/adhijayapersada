@@ -20,7 +20,7 @@
    }
 
    .paragraph {
-      @apply text-gray-800 text-base md:text-lg tracking-wide leading-relaxed;
+      @apply text-gray-600 text-base md:text-lg tracking-wide leading-relaxed;
    }
 }
 

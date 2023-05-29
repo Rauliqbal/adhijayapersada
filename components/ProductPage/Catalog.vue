@@ -19,7 +19,7 @@ const catalogs = [
       class: "col-span-full md:col-span-1",
    },
    {
-      title: "Corrugated Steel / Aramco",
+      title: "Corrugated Steel",
       url: "corrugated-steel",
       image: "aramco.jpg ",
       class: "col-span-full md:col-span-1",
