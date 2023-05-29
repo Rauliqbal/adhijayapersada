@@ -61,7 +61,7 @@ const lists = [
                <div :class="'h-80 bg-no-repeat bg-center bg-cover rounded-3xl overflow-hidden relative ' + list.image">
                   <div class="bg-gradient-to-t from-black to-black/40 absolute inset-0 flex flex-col justify-center items-center">
                      <h4 class="text-4xl lg:text-5xl text-white font-semibold">{{ list.title }}</h4>
-                     <p class="paragraph text-white mt-4 text-center">{{ list.desc }}</p>
+                     <p class="paragraph text-white mt-2 md:mt-4 text-center px-2">{{ list.desc }}</p>
                   </div>
                   <div></div>
                </div>
