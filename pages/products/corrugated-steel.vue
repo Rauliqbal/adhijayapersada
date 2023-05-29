@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+   title: "Corrugated Steel Pipe - Adhi Jaya Persada",
+   meta: [{ name: "keywords", content: "gorong gorong baja" }],
+});
+
 const data = {
    title: "Corrugated Steel Pipe",
    image: "corrugated-steel.png",

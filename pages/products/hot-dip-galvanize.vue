@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+   title: "Hot Dip Galvanize - Adhi Jaya Persada",
+   meta: [{ name: "keywords", content: "baja galvanis, gorong gorong baja" }],
+});
+
 const data = {
    title: "Hot Dip Galvanize",
    thumbnail: "hotdip-galvanize.jpg",

@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+   title: "Guardrail Steel - Adhi Jaya Persada",
+   meta: [{ name: "keywords", content: "guardrail steel, pembatas jalan" }],
+});
+
 const data = {
    title: "Guardrail Steel",
    image: "guard-rail.jpg",

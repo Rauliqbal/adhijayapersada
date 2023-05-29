@@ -1,4 +1,9 @@
 <script setup>
+useHead({
+   title: "Steel Grating - Adhi Jaya Persada",
+   meta: [{ name: "keywords", content: "penutup gorong gorong, gorong gorong baja" }],
+});
+
 const data = {
    title: "Steel Grating",
    image: "steel-grating.jpg",
