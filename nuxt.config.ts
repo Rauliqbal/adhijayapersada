@@ -10,7 +10,8 @@ export default defineNuxtConfig({
                name: "description",
                content: "Adhi Jaya Persada menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel , Hot Dip Galvanize, Steel Grating, Flex Beam Guard Rail dan lain-lain.",
             },
-            { name: "keywords", content: "adhi jaya persada, gorong gorong, suplier steel, baja galvanis" },
+            { name: "google-site-verification", content: "_xBExt5beW8Gkp0VQbMAw7UXoFhorfAo0CcaDxQRrVg" },
+            { name: "keywords", content: "adhi jaya persada, gorong gorong, gorong gorong baja, suplier steel, baja galvanis,jasa gorong gorong" },
          ],
          link: [
             { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
