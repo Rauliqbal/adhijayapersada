@@ -35,7 +35,7 @@ const products = [
 
 const contacts = [
    { title: "brian.sanadi78@gmail.com", url: "mailto:brian.sanadi78@gmail.com" },
-   { title: "0813 8911 3001", url: "https://wa.me/+6281389113001?text=Permisi" },
+   { title: "0813 8911 3001", url: "https://wa.me/+6281389113001?text= " },
    { title: "Jl. Markisa 2 Blok D9/19, Perum Telaga Murni, Kec. Cikarang Barat, Kab. Bekasi, Jawa Barat 17520", url: "https://goo.gl/maps/48VXRr2DYPhC7AVx9" },
 ];
 
@@ -105,7 +105,7 @@ const date = new Date();
       </div>
 
       <div class="py-8 bg-gradient-to-r from-blue-500 to-indigo-500 text-center">
-         <h4 class="font-medium text-white">Copyright &#169; 2018 - {{ date.getFullYear() }} • All rights reserved</h4>
+         <h4 class="font-medium text-white text-sm md:text-base">Copyright &#169; 2018 - {{ date.getFullYear() }} • All rights reserved</h4>
       </div>
    </footer>
 </template>

@@ -42,7 +42,7 @@
                   class="rounded-3xl w-full h-96"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15863.772652250194!2d107.109339!3d-6.271205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6985f778aaffe5%3A0x33be6c0186d1de1a!2sCV.ADHI%20JAYA%20PERSADA!5e0!3m2!1sid!2sid!4v1685094821719!5m2!1sid!2sid"
                   style="border: 0"
-                  allowfullscreen=""
+                  allowfullscreen="true"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                ></iframe>

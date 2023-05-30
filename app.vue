@@ -7,6 +7,7 @@ useHead({
 <template>
    <Navbar />
    <NuxtPage />
+   <Cta />
    <Footer />
 </template>
 

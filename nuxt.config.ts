@@ -12,6 +12,50 @@ export default defineNuxtConfig({
             },
             { name: "google-site-verification", content: "_xBExt5beW8Gkp0VQbMAw7UXoFhorfAo0CcaDxQRrVg" },
             { name: "keywords", content: "adhi jaya persada, gorong gorong, gorong gorong baja, gorong gorong beton, suplier steel, baja galvanis, galvanis, tiang pju, grating" },
+
+            // MetaTags Facebook
+            {
+               property: "og:type",
+               content: "website",
+            },
+            {
+               property: "og:url",
+               content: "https://adhijayapersada.com/",
+            },
+            {
+               property: "og:title",
+               content: "Adhi Jaya Persada - Jasa Fabrikasi Gorong Gorong Baja",
+            },
+            {
+               property: "og:description",
+               content: "Adhi Jaya Persada, menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel , Hot Dip Galvanize, Steel Grating, Flex Beam Guard Rail dan lain-lain.",
+            },
+            {
+               property: "og:image",
+               content: "/adhijayapersada.jpg",
+            },
+
+            // MetaTags Twitter
+            {
+               property: "twitter:card",
+               content: "summary_large_image",
+            },
+            {
+               property: "twitter:url",
+               content: "https://adhijayapersada.com/",
+            },
+            {
+               property: "twitter:title",
+               content: "Adhi Jaya Persada - Jasa Fabrikasi Gorong Gorong Baja",
+            },
+            {
+               property: "twitter:description",
+               content: "Adhi Jaya Persada, menyediakan hampir semua produk baja galvanis untuk kebutuhan proyek infrastruktur seperti Corrugated Steel , Hot Dip Galvanize, Steel Grating, Flex Beam Guard Rail dan lain-lain.",
+            },
+            {
+               property: "twitter:image",
+               content: "/adhijayapersada.jpg",
+            },
          ],
          link: [
             { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
