@@ -5,10 +5,10 @@ useHead({
 });
 
 const data = {
-   title: "Steel Grating",
-   image: "steel-grating.jpeg",
+   title: "Tiang PJU",
+   image: "tiang-pju.jpeg",
 
-   images: ["grating1.jpg", "grating2.jpg", "grating3.jpg", "grating4.jpg"],
+   images: ["tiang-pju1.jpeg", "tiang-pju2.jpeg"],
 };
 </script>
 <template>
@@ -31,15 +31,20 @@ const data = {
          <h2 class="text-4xl font-bold mt-8 mb-6">{{ data.title }}</h2>
          <div class="h-1 w-20 mt-6 bg-red-700"></div>
 
-         <p class="paragraph mt-4">Apa itu steel grating ? Steel grating adalah sejenis baja dapat berbentuk kotak-kotak dan silang yang saling berhubungan pada antar bagian dengan menggunakan pengelasan ataupun dengan penguncian.</p>
-         <img class="w-full mt-8" src="~/assets/images/steelgrating-info.jpg" :alt="'Adhi Jaya Persada ' + data.title" />
-         <ul class="list-decimal pl-6 mt-8">
-            <li class="paragraph pl-4">Bearing Bar – A flat bar withstanding the main load is in consistent with the span direction</li>
-            <li class="paragraph pl-4">Bearing Bar Pitch – The Distance center to center of the two adjacent cross bars</li>
-            <li class="paragraph pl-4">Cross Bar – The Connecting bars, made from twisted bar, round bar or flat bar, which extend accross the bearing bars</li>
-            <li class="paragraph pl-4">Cross bar pitch – The distance center to center of the two adjacent cross bars</li>
-            <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
-            <li class="paragraph pl-4">Length – The maximum dimension of grating panel, measured parallel to the bearing bars & in the same direction as the bearing bars.</li>
+         <p class="paragraph mt-4">
+            Penerangan Jalan Umum (PJU) dirancang dan diproduksi untuk daya tahan, ketahanan korosi, dan daya tarik visual. Kami mulai dengan bahan berkualitas tinggi untuk desain baja kami untuk membuat tiang dan penyangga yang memenuhi
+            spesifikasi Anda dan melebihi ekspektasi Anda untuk penerangan jalan dan sejumlah aplikasi lainnya.
+         </p>
+         <p class="paragraph mt-4">Keunggulannya antara lain :</p>
+
+         <ul class="list-decimal pl-6 mt-4">
+            <li class="paragraph pl-4">Hot dip galvanis secara internal dan eksternal</li>
+            <li class="paragraph pl-4">Ramah lingkungan</li>
+            <li class="paragraph pl-4">Ringan dan hemat biaya</li>
+            <li class="paragraph pl-4">Kemudahan perawatan</li>
+            <li class="paragraph pl-4">Mudah di installasi</li>
+            <li class="paragraph pl-4">Tahan lama</li>
+            <li class="paragprah pl-4">Kuat</li>
          </ul>
 
          <h2 class="text-3xl md:text-4xl font-bold mt-20 mb-6">{{ data.title }} Product</h2>

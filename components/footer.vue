@@ -71,9 +71,9 @@ const date = new Date();
                   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                      <!-- Tentang Kami -->
                      <div>
-                        <h4 class="text-xl font-semibold text-blue-700">Tentang</h4>
+                        <h4 class="text-xl font-semibold text-red-600">Tentang</h4>
                         <ul class="mt-4 inline-flex flex-col gap-4">
-                           <li class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out" v-for="about in abouts" :key="about">
+                           <li class="text-gray-500 hover:text-red-800 font-medium transition duration-200 ease-out" v-for="about in abouts" :key="about">
                               <NuxtLink :to="about.url">{{ about.title }}</NuxtLink>
                            </li>
                         </ul>
@@ -81,9 +81,9 @@ const date = new Date();
 
                      <!-- Produk Kami -->
                      <div>
-                        <h4 class="text-xl font-semibold text-blue-700">Produk</h4>
+                        <h4 class="text-xl font-semibold text-red-600">Produk</h4>
                         <ul class="mt-4 inline-flex flex-col gap-4">
-                           <li v-for="product in products" :key="product" class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out">
+                           <li v-for="product in products" :key="product" class="text-gray-500 hover:text-red-800 font-medium transition duration-200 ease-out">
                               <NuxtLink :to="/products/ + product.url">{{ product.title }}</NuxtLink>
                            </li>
                         </ul>
@@ -91,9 +91,9 @@ const date = new Date();
 
                      <!-- Kontak Kami-->
                      <div>
-                        <h4 class="text-xl font-semibold text-blue-700">Tentang Kami</h4>
+                        <h4 class="text-xl font-semibold text-red-600">Tentang Kami</h4>
                         <ul class="mt-4 inline-flex flex-col gap-4">
-                           <li v-for="contact in contacts" :key="contact" class="text-gray-500 hover:text-red-600 font-medium transition duration-200 ease-out">
+                           <li v-for="contact in contacts" :key="contact" class="text-gray-500 hover:text-red-800 font-medium transition duration-200 ease-out">
                               <a :href="contact.url" target="_blank">{{ contact.title }}</a>
                            </li>
                         </ul>

@@ -3,31 +3,31 @@ const catalogs = [
    {
       title: "Hot Dip Galvanize",
       url: "hot-dip-galvanize",
-      image: "hotdip-galvanize.jpg",
+      image: "hotdip-galvanize.jpeg",
       class: "col-span-full md:col-span-2",
    },
    {
       title: "Steel Grating",
       url: "steel-grating",
-      image: "steel-grating.jpg",
+      image: "steel-grating.jpeg",
       class: "col-span-full md:col-span-1",
    },
    {
       title: "Guardrail way Steel",
       url: "guardrail-steel",
-      image: "guard-rail.jpg ",
+      image: "guard-rail.jpeg ",
       class: "col-span-full md:col-span-1",
    },
    {
       title: "Corrugated Steel",
       url: "corrugated-steel",
-      image: "aramco.jpg ",
+      image: "aramco.jpeg ",
       class: "col-span-full md:col-span-1",
    },
    {
       title: "Tiang PJU",
       url: "tiang-pju",
-      image: "tiang-pju.jpg ",
+      image: "tiang-pju.jpeg ",
       class: "col-span-full md:col-span-1",
    },
 ];

@@ -6,8 +6,8 @@ useHead({
 
 const data = {
    title: "Hot Dip Galvanize",
-   thumbnail: "hotdip-galvanize.jpg",
-   images: ["hotdipgalvanize1.png", "hotdipgalvanize2.png", "hotdipgalvanize3.png", "hotdipgalvanize4.png"],
+   thumbnail: "hotdip-galvanize.jpeg",
+   images: ["hotdipgalvanize1.jpg", "hotdipgalvanize2.jpg", "hotdipgalvanize3.jpg", "hotdipgalvanize4.jpg"],
 };
 </script>
 <template>

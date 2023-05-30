@@ -3,27 +3,27 @@ const products = [
    {
       title: "Hot Dip Galvanize",
       url: "hot-dip-galvanize",
-      image: "hotdip-galvanize.jpg",
+      image: "hotdip-galvanize.jpeg",
    },
    {
       title: "Steel Grating",
       url: "steel-grating",
-      image: "steel-grating.jpg",
+      image: "steel-grating.jpeg",
    },
    {
       title: "Guardrail way Steel",
       url: "guardrail-steel",
-      image: "guard-rail.jpg ",
+      image: "guard-rail.jpeg ",
    },
    {
       title: "Corrugated Steel / Aramco",
       url: "corrugated-steel",
-      image: "aramco.jpg ",
+      image: "aramco.jpeg ",
    },
    {
       title: "Tiang PJU",
       url: "/products",
-      image: "tiang-pju.jpg ",
+      image: "tiang-pju.jpeg ",
    },
 ];
 </script>
@@ -43,7 +43,7 @@ const products = [
          :space-between="'32'"
          :modules="[SwiperPagination, SwiperAutoplay]"
          :autoplay="{
-            delay: 4000,
+            delay: 3000,
             disableOnInteraction: true,
          }"
          :breakpoints="{

@@ -6,9 +6,9 @@ useHead({
 
 const data = {
    title: "Guardrail Steel",
-   image: "guard-rail.jpg",
+   image: "guard-rail.jpeg",
 
-   images: ["guard-rail.jpg", "hotdipgalvanize3.png"],
+   images: ["guard-rail.jpeg", "hotdipgalvanize3.jpg"],
 };
 </script>
 <template>

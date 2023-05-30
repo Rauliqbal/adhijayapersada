@@ -6,9 +6,9 @@ useHead({
 
 const data = {
    title: "Corrugated Steel Pipe",
-   image: "corrugated-steel.png",
+   image: "corrugated-steel.jpg",
 
-   images: ["aramco1.png", "aramco2.png", "aramco3.png", "aramco4.png"],
+   images: ["aramco1.jpg", "aramco2.jpg", "aramco3.jpg", "aramco4.jpg"],
 };
 </script>
 <template>
@@ -31,8 +31,10 @@ const data = {
          <h2 class="text-4xl font-bold mt-8 mb-6">{{ data.title }}</h2>
          <p class="paragraph mt-4">
             Pipa yang terbuat dari lembaran baja yang telah mengalami proses pembentukan gelombang (Corrugating) dan pelengkungan (Curving). Untuk hasil akhir yang lebih baik, Pipa Baja Bergelombang akan di lapisi dengan Zinc (Galvanizing),
-            untuk memastikan resistensi terhadap korosi. Corrugated Steel Pipe biasa di gunakan untuk kontruksi gorong-gorong, saluran, jembatan, terowongan, penutup atas conveyor. Keunggulan lain dari Currogated Steel Pipe antara lain :
+            untuk memastikan resistensi terhadap korosi. Corrugated Steel Pipe biasa di gunakan untuk kontruksi gorong-gorong, saluran, jembatan, terowongan, penutup atas conveyor.
          </p>
+
+         <p class="paragraph mt-4">Keunggulan lain dari Currogated Steel Pipe antara lain :</p>
 
          <ul class="list-decimal pl-6 mt-4">
             <li class="pl-4 paragraph">Dapat menyerap getaran dari beban di atasnya</li>
