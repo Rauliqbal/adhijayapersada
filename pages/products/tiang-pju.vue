@@ -8,7 +8,7 @@ const data = {
    title: "Tiang PJU",
    image: "tiang-pju.jpeg",
 
-   images: ["tiang-pju1.jpeg", "tiang-pju2.jpeg"],
+   images: ["tiang-pju1.jpg", "tiang-pju2.jpg"],
 };
 </script>
 <template>

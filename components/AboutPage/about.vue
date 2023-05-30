@@ -3,17 +3,17 @@ const lists = [
    {
       title: "VISI",
       desc: "Menjadi suplier terbaik di Indonesia",
-      image: "bg-[url('/images/visi.jpg')]",
+      image: "bg-[url('/images/visi.jpeg')]",
    },
    {
       title: "MISI",
       desc: "Melayani dengan hati, tepat waktu, dan di percaya",
-      image: "bg-[url('/images/misi.jpg')]",
+      image: "bg-[url('/images/misi.jpeg')]",
    },
    {
       title: "MOTTO",
       desc: "Menjadi suplier yang bermanfaat untuk customer",
-      image: "bg-[url('/images/motto.jpg')]",
+      image: "bg-[url('/images/motto.jpeg')]",
    },
 ];
 </script>

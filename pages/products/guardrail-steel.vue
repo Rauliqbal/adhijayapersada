@@ -8,7 +8,7 @@ const data = {
    title: "Guardrail Steel",
    image: "guard-rail.jpeg",
 
-   images: ["guard-rail.jpeg", "hotdipgalvanize3.jpg"],
+   images: ["guardrail-steel1.jpeg", "guardrail-steel2.jpg", "guardrail-steel3.jpg", "guardrail-steel4.jpg"],
 };
 </script>
 <template>
