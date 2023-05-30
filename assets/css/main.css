@@ -29,6 +29,6 @@
       @apply text-lg text-blue-700 font-bold tracking-wide mb-2;
    }
    .section-subtitle {
-      @apply text-4xl text-red-600 font-bold;
+      @apply text-3xl md:text-4xl text-red-600 font-bold;
    }
 }
