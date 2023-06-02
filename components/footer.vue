@@ -47,7 +47,7 @@ const date = new Date();
          <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
                <div class="col-span-2">
-                  <img class="w-48" src="~/assets/images/logo-ajp_wide.png" alt="Adhi Jaya Persada supplier gorong gorong baja" />
+                  <img class="w-48" src="~/assets/images/logo-ajp_wide.svg" alt="Adhi Jaya Persada supplier gorong gorong baja" />
                   <p class="paragraph mt-4"><span class="font-semibold">ADHI JAYA PERSADA</span> berkomitmen membangun reputasi yang nyata dengan menyediakan layanan profesional dan inovatif</p>
 
                   <div class="flex items-center gap-4 mt-6">

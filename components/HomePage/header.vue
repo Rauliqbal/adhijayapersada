@@ -8,7 +8,7 @@
          <h1 class="text-4xl sm:text-6xl text-white font-bold leading-tight">Supplier dan<br />General Trading</h1>
          <p class="mt-6 md:text-lg text-white leading-relaxed max-w-md">Kami menyediakan layanan profesional dan inovatif untuk customer seluruh Indonesia</p>
 
-         <NuxtLink to="/products" class="btn-primary mt-8">Liat Produk</NuxtLink>
+         <NuxtLink to="/products" class="btn-primary mt-8">Lihat Produk</NuxtLink>
       </div>
    </div>
 </template>
