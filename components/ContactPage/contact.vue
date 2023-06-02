@@ -31,7 +31,7 @@
                   <div>
                      <div class="flex gap-2 items-center">
                         <i class="ai-location text-2xl text-blue-700"></i>
-                        <h4 class="font-semibold text-xl">Telepon</h4>
+                        <h4 class="font-semibold text-xl">Alamat</h4>
                      </div>
                      <h5 class="text-lg mt-2">Jl. Markisa 2 Blok D9/19 Perum Telaga Murni, Kec. Cikarang Barat, Kab. Bekasi, Jawa Barat 17530</h5>
                   </div>
